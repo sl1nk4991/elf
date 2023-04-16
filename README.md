@@ -1,6 +1,5 @@
 ELF
 ===
-
 Usage
 -----
 
@@ -10,7 +9,12 @@ make
 ./main
 ```
 
-Read elf
+Readelf
 ```console
 readelf -a elf-executable
+```
+
+Dissemble executable
+```console
+objdump -D elf-executable
 ```
