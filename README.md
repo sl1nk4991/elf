@@ -14,7 +14,7 @@ Readelf
 readelf -a elf-executable
 ```
 
-Dissemble executable
+Disassemble elf-executable
 ```console
 objdump -D elf-executable
 ```
